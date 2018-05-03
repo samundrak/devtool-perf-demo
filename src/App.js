@@ -9,9 +9,7 @@ class App extends Component {
       <div className="App">
         <Link to="/fast-shopping-site">Fast Shopping Site</Link>
         <br />
-        <Link to="/ConsoleErrorPage">Console Error Page</Link>
-        <hr />
-        <Route exact path="/fast-shopping-site" component={ShoppingSiteFast} />
+        <ShoppingSiteFast />
       </div>
     );
   }
